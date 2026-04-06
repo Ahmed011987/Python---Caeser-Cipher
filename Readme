@@ -1,0 +1,60 @@
+Caesar Cipher – Python
+
+A Python implementation of the classic Caesar Cipher encryption technique, where each letter in a message is shifted by a user-defined number of positions in the alphabet.
+
+The program supports both encryption and decryption, handles large shift values, and preserves spaces, numbers, and symbols without causing errors.
+
+Features:
+- Encrypt messages using Caesar Cipher
+- Decrypt messages using Caesar Cipher
+- Handles large shift numbers using modulo logic
+- Preserves spaces, numbers, and special characters
+- Input validation for encode/decode selection
+- Allows continuous use until user chooses to exit
+
+Concepts Practiced:
+- Functions
+- Loops
+- Conditional statements
+- Lists
+- String manipulation
+- Modulo operator (%)
+- User input validation
+
+Example:
+
+Type 'encode' to encrypt, type 'decode' to decrypt:
+encode
+
+Type your message:
+hello world
+
+Type the shift number:
+5
+
+Here is the encoded result:
+mjqqt btwqi
+
+Do you want to encode or decode another message? Type 'yes' or 'no':
+yes
+
+Type 'encode' to encrypt, type 'decode' to decrypt:
+decode
+
+Type your message:
+mjqqt btwqi
+
+Type the shift number:
+5
+
+Here is the decoded result:
+hello world
+
+Do you want to encode or decode another message? Type 'yes' or 'no':
+no
+
+Thank you for using Caesar Cipher.
+
+Run the live version here:
+
+Replit:
